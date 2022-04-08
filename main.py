@@ -54,8 +54,6 @@ class BST:
         if self.left:
             graph.edge(str(self.value), str(self.left.value))
             self.left.graphviz_tree(graph)
-        else:
-            graph.edge(str(self.value), str(self.value))
         if self.right:
             graph.edge(str(self.value), str(self.right.value))
             self.right.graphviz_tree(graph)
