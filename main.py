@@ -128,7 +128,6 @@ if __name__ == '__main__':
     plt.legend()
     plt.grid()
     plt.show()
-    plt.savefig('imb.png')
 
     plt.plot(x_axis, height_tab, label='Experimental')
     plt.plot(x_axis, y_axis2, '-', label='Theoretical')
@@ -137,4 +136,3 @@ if __name__ == '__main__':
     plt.legend()
     plt.grid()
     plt.show()
-    plt.savefig('height.png')
